@@ -1,0 +1,14 @@
+{
+    "jira": {
+        "protocol": "https://",
+        "host": "",
+        "port": 8080,
+        "path": "/rest/api/2",
+        "user": "",
+        "pass": ""
+    },
+    "http": {
+        "debug": true
+    }
+}
+

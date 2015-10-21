@@ -1,0 +1,37 @@
+{
+	"name" : "localgod/carpet",
+	"type" : "Application",
+	"require" : {
+		"php" : ">=5.5.0",
+		"cilex/cilex" : "1.1.0",
+		"guzzlehttp/guzzle" : "6.1.0"
+	},
+	"require-dev" : {
+		"ext-xsl" : "*"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Localgod\\Carpet\\" : "src"
+		}
+	},
+	"authors" : [{
+			"name" : "Johannes Skov Frandsen",
+			"email" : "localgod@heaven.dk"
+		}
+	],
+	"minimum-stability" : "dev",
+	"support" : {
+		"source" : "https://github.com/localgod/carpet",
+		"issues" : "https://github.com/localgod/carpet/issues"
+	},
+	"config" : {
+		"bin-dir" : "bin/",
+		"vendor-dir" : "vendor/"
+	},
+	"description" : "Carpet is a console tool written in php for generating reports of Atlassian application data.",
+	"homepage" : "https://github.com/localgod/carpet",
+	"license" : "MIT",
+	"keywords" : [
+		"Jira"
+	]
+}
