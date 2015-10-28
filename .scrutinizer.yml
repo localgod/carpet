@@ -2,7 +2,6 @@ inherit: true
 filter:
     excluded_paths:
         - 'build/*'
-        - 'demo/*'
         - 'tests/*'
 tools:
     php_cpd: true
