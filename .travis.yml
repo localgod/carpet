@@ -8,6 +8,7 @@ php:
 - 7.0
 
 before_script:
+- composer self-update
 - composer install
 - wget -nc -O ./phpDocumentor.phar http://www.phpdoc.org/phpDocumentor.phar
 - chmod 755 ./phpDocumentor.phar
