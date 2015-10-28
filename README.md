@@ -1,3 +1,4 @@
+[![Build Status](https://secure.travis-ci.org/localgod/carpet.png?branch=master)](http://travis-ci.org/localgod/carpet)
 # Carpet
 
 Carpet is a console tool written in php for generating reports of Atlassian application data. 
