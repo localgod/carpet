@@ -10,3 +10,4 @@ Carpet is a console tool written in php for generating reports of Atlassian appl
 ## Documentation
 
 You can run the program with --help to get info about how to use it
+You need to update bin/Carpet.php with relevant url and credentials
